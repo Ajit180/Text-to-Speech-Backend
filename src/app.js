@@ -6,6 +6,6 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use('/api/tts', ttsRoute);
+app.use('/api', ttsRoute);
 
 export default app;
